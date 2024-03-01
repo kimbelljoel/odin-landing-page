@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Roboto';
+    font-family: Roboto, "Roboto Mono";
 }
 
 ul {
@@ -45,12 +45,12 @@ button {
 }
 
 .header {
-    padding-left: 15%;
-    padding-right: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .section-one {
@@ -81,4 +81,25 @@ button {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 4px;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
 }
