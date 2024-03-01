@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     font-family: 'Roboto';
-    color: white;
 }
 
 ul {
@@ -16,6 +15,11 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .hero-primary {
@@ -56,6 +60,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgrey;
+    background-color: #636363;
+    color: #E5E7EB;
 }
 
