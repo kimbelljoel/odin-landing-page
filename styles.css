@@ -17,7 +17,7 @@ a {
     font-size: 18px;
 }
 
-button {
+.hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 10px 30px;
@@ -102,4 +102,62 @@ button {
     justify-content: flex-end;
     font-size: 24px;
     font-weight: 900;
+}
+
+.section-four {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 12px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.section-four-text {
+    flex-basis: 66%;
+}
+
+.cta-text {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #F9FAF8;
+}
+
+.cta-para {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.section-four-cta {
+    flex-basis: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
