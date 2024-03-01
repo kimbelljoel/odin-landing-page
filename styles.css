@@ -18,15 +18,20 @@ a {
     font-size: 18px;
 }
 
-  h1 {
+.hero-primary {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
-  }
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .header {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,13 +39,13 @@ a {
 }
 
 .section-one {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
     background-color: #1F2937;
-    gap: 10%;
+    gap: 5%;
 }
 
 .section-one > * {
@@ -53,3 +58,4 @@ a {
     align-items: center;
     background-color: darkgrey;
 }
+
