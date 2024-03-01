@@ -83,6 +83,38 @@ a {
     color: #1F2937;
 }
 
+.section-two {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.section-two-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 5%;
+}
+
+.section-two-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-two-image-placeholder {
+    height: 175px;
+    width: 175px;
+    border: 2px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+}
+
+.section-two-text {
+    text-align: center;
+    color: grey;
+}
+
 .section-three {
     background-color: #E5E7EB;
     padding-top: 5%;
